@@ -29,9 +29,20 @@ function listen() {
   const freq = autoCorrelate(buffer, context.sampleRate);
   if (freq !== -1) {
     const match = getClosestNote(freq);
+    const diff = Math.abs(freq - match.freq);
+
     noteDisplay.textContent = match.note.toUpperCase();
+
+    if (diff < 1) {
+      noteDisplay.style.color = "#4caf50";
+    } else if (diff < 5) {
+      noteDisplay.style.color = "#ffc107"; 
+    } else {
+      noteDisplay.style.color = "#f44336"; 
+    }
   } else {
     noteDisplay.textContent = "--";
+    noteDisplay.style.color = "#9b9b9b";
   }
   requestAnimationFrame(listen);
 }
