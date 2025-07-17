@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: linear-gradient(135deg, #c591a6, #b6b1d3);
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(135deg, #d181a1, #988ece);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -12,33 +12,23 @@ body {
 
 .casing-container {
   background-color: #ffffff;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
   width: 280px;
 }
 
 .display--note--container h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 4rem;
   color: #4f8bce;
   margin: 0 0 30px;
 }
 
-.string--select-container ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 30px;
-}
-
-.string--select-container li {
-  margin: 10px 0;
-}
-
 .footer--container h3 {
   font-weight: normal;
-  font-size: 1rem;
-  color: #9b9b9b;
+  font-size: 2rem;
+  color: #5b5a5a;
 }
 
 #note-display {
