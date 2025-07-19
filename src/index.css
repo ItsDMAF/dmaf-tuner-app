@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(135deg, #d181a1, #988ece);
-  color: #fff;
+  background: linear-gradient(135deg, hsl(114, 47%, 66%), hsl(125, 17%, 44%));
+  color: hsl(0, 0%, 24%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,24 +11,23 @@ body {
 }
 
 .casing-container {
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 15%);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 40px #00000099;
   width: 280px;
 }
 
 .display--note--container h1 {
-  font-family: "Orbitron", sans-serif;
   font-size: 4rem;
-  color: #4f8bce;
+  color: hsl(0, 0%, 91%);
   margin: 0 0 30px;
 }
 
 .footer--container h3 {
   font-weight: normal;
   font-size: 2rem;
-  color: #5b5a5a;
+  color: hsl(0, 0%, 86%);
 }
 
 #note-display {

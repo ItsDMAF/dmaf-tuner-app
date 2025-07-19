@@ -53,11 +53,11 @@ function listen() {
         noteDisplay.textContent = match.note.toUpperCase();
 
         if (diff < 1) {
-          noteDisplay.style.color = "#4caf50";
+          noteDisplay.style.color = "rgba(110, 169, 112, 1)";
         } else if (diff < 5) {
-          noteDisplay.style.color = "#ffc107";
+          noteDisplay.style.color = "rgba(227, 195, 101, 1)";
         } else {
-          noteDisplay.style.color = "#f44336";
+          noteDisplay.style.color = "rgba(200, 103, 96, 1)";
         }
       }
     }
@@ -66,7 +66,7 @@ function listen() {
     stableNote = null;
     stableCount = 0;
     noteDisplay.textContent = "--";
-    noteDisplay.style.color = "#9b9b9b";
+    noteDisplay.style.color = "rgba(231, 231, 231, 1)";
   }
 
   requestAnimationFrame(listen);
