@@ -53,7 +53,7 @@ function listen() {
         noteDisplay.textContent = match.note.toUpperCase();
 
         if (diff < 1) {
-          noteDisplay.style.color = "rgba(110, 169, 112, 1)";
+          noteDisplay.style.color = "rgba(125, 154, 191, 1)";
         } else if (diff < 5) {
           noteDisplay.style.color = "rgba(227, 195, 101, 1)";
         } else {
