@@ -1,3 +1,9 @@
+:root {
+  --text: hsl(0, 0%, 24%);
+  --light-green: hsl(115, 19%, 74%);
+  --dark-green: hsl(126, 16%, 51%);
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
