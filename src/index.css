@@ -1,7 +1,7 @@
 :root {
   --text: hsl(0, 0%, 24%);
-  --light-green: hsl(115, 19%, 74%);
-  --dark-green: hsl(126, 16%, 51%);
+  --light-bg: hsl(115, 19%, 74%);
+  --dark-bg: hsl(126, 16%, 51%);
 }
 
 body {
