@@ -1,5 +1,5 @@
 :root {
-  --text: hsl(0, 0%, 24%);
+  --text: hsl(0, 0%, 90%);
   --light-bg: hsl(115, 19%, 74%);
   --dark-bg: hsl(126, 16%, 51%);
 }
@@ -7,8 +7,8 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(135deg, hsl(115, 19%, 74%), hsl(126, 16%, 51%));
-  color: hsl(0, 0%, 24%);
+  background: linear-gradient(135deg, var(--light-bg), var(--dark-bg));
+  color: var(--text);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,14 @@ body {
   border: 1px solid hsla(0, 0%, 100%, 0.18);
 }
 
+.display--note--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .display--note--container h1 {
   font-size: 4rem;
   color: hsl(0, 0%, 96%);
@@ -36,10 +44,34 @@ body {
   text-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.4);
 }
 
+.flat--container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.flat {
+  background: red;
+  width: 20px;
+  height: 20px;
+}
+
+.sharp--container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.sharp {
+  background: green;
+  width: 20px;
+  height: 20px;
+}
+
 .footer--container h3 {
   font-weight: normal;
   font-size: 2rem;
-  color: hsl(0, 0%, 90%);
+  color: var(--text);
   text-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.25);
 }
 
