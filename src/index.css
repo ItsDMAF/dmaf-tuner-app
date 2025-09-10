@@ -2,6 +2,7 @@
   --text: hsl(0, 0%, 90%);
   --light-bg: hsl(115, 19%, 74%);
   --dark-bg: hsl(126, 16%, 51%);
+  --indicator: hsl(0, 17%, 41%);
 }
 
 body {
@@ -51,7 +52,7 @@ body {
 }
 
 .flat {
-  background: red;
+  background: var(--indicator);
   width: 20px;
   height: 20px;
 }
@@ -63,7 +64,7 @@ body {
 }
 
 .sharp {
-  background: green;
+  background: var(--indicator);
   width: 20px;
   height: 20px;
 }
