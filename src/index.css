@@ -2,7 +2,7 @@
   --text: hsl(0, 0%, 90%);
   --light-bg: hsl(115, 19%, 74%);
   --dark-bg: hsl(126, 16%, 51%);
-  --indicator: hsl(0, 17%, 41%);
+  --indicator: hsl(0, 9%, 81%);
 }
 
 body {
@@ -55,6 +55,8 @@ body {
   background: var(--indicator);
   width: 20px;
   height: 20px;
+  border: var(--indicator) solid 1px;
+  border-radius: 50%;
 }
 
 .sharp--container {
@@ -63,10 +65,13 @@ body {
   gap: 10px;
 }
 
+
 .sharp {
   background: var(--indicator);
   width: 20px;
   height: 20px;
+  border: var(--indicator) solid 1px;
+  border-radius: 50%;
 }
 
 .footer--container h3 {
@@ -77,5 +82,7 @@ body {
 }
 
 #note-display {
+  margin-left: 20px;
+  margin-right: 20px;
   transition: color 0.3s ease;
 }
