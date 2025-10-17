@@ -24,7 +24,7 @@ const createWindow = () => {
   
   mainWindow.setMenuBarVisibility(false);
   mainWindow.setResizable(false);
-  mainWindow.setTitle("DMAF Tuner");
+  mainWindow.setTitle("Tuner");
 };
 
 // This method will be called when Electron has finished

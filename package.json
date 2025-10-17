@@ -1,6 +1,6 @@
 {
-  "name": "dmaf-tuner-app",
-  "productName": "dmaf-tuner-app",
+  "name": "tuner-app",
+  "productName": "tuner-app",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "ItsDMAF",
+    "name": "Diegomaf",
     "email": "dmaf.andinofiallos@gmail.com"
   },
   "license": "MIT",
